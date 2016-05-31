@@ -9,27 +9,37 @@
 		</header>
 	</div>
 
-	<div class="container">
-		<div class="corkboard-border">
-			<div class="corkboard">
+<div class="container-fluid text-center">
+  <h2>Marvel vs. Capcom </h2>
+  <p>quote machine </p>
 
-				<h2 class="text-center"><small class="lead">quote generator</small></h2>
+  <img src=http://3.bp.blogspot.com/-xpY1lbJEQXk/UKrbJraJpGI/AAAAAAAAA6U/Y-Q7ScRYo48/s1600/Marvel_VS_capcom.jpg>
 
-				<div class="row">
-					<div class="col-sm-3 col-sm-push-1">
-						<a href="javascript:void(0);" role="button" id="button">
-							<div class="post-it">
-								That's what she said
-							</div>
-						</a>
-					</div>
 
-					<div class="col-sm-8 col-sm-push-1">
-						<div class="scrap">
-							<div class="wrapper" id="paper">
-								<img class="img-responsive" src="https://miund.files.wordpress.com/2008/01/logo.jpg" alt="Dunder Mifflin Logo">
-								<p id="quote"></p>
-								<p id="character" class="text-right"></p>
+  <div class="row text-center">
+
+  </div>
+  <div class="quotes row text-center">
+    <div class="col-xs-12 well message">
+      <span class=quote>     
+       First Attack!
+      </span>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <button id="KO" class="btn btn-primary">
+        Insert Coin
+      </button>
+      <span class = tweet> 
+      <ahref="  href="https://twitter.com/intent/tweet"" class="btn btn-default" id=Tw>
+        Tweet out!</a></span>
+    </div>
+
+
+
+
+
 								<div id="twtbox"></div>
 							</div>
 						</div>
