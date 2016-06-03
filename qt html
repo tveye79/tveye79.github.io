@@ -1,14 +1,3 @@
-	<div class="container">
-		<header class="text-center">
-			<div class="title-box">
-				<h1>
-					<small>The </small>Office
-					<img src="http://blacknerdproblems.com/wp-content/uploads/2015/06/88892.jpg" class="img-responsive logo" alt="The Office logo">
-				</h1>
-			</div>
-		</header>
-	</div>
-
 <div class="container-fluid text-center">
   <h2>Marvel vs. Capcom </h2>
   <p>quote machine </p>
@@ -31,40 +20,11 @@
       <button id="KO" class="btn btn-primary">
         Insert Coin
       </button>
-      <span class = tweet> 
-      <ahref="  href="https://twitter.com/intent/tweet"" class="btn btn-default" id=Tw>
-        Tweet out!</a></span>
+      <div class="row">
+    <div id= "twitter-button" class="col-xs-12">
+      <a class="twitter-share-button">
+      Tweet
+      </a>
+ <!--javascript for twitter button-->
+      <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))returnt;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script></a>
     </div>
-
-
-
-
-
-								<div id="twtbox"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div> <!-- /.corkboard -->
-		</div> <!-- /.corkboard-border -->
-	</div> <!-- /.container -->
-
-<!-- jQuery & JS -->
-<script>
-	window.twttr = (function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0],
-			t = window.twttr || {};
-			if (d.getElementById(id)) return t;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "https://platform.twitter.com/widgets.js";
-			fjs.parentNode.insertBefore(js, fjs);
-			t._e = [];
-			t.ready = function(f) {
-				t._e.push(f);
-			};
-		return t;
-		}
-	(document, "script", "twitter-wjs"));
-</script>
