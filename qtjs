@@ -1,5 +1,4 @@
-$(document).ready(function() {  
- var randomQuote; 
+var randomQuote;
  function getQuote() {
         var quotes = ["Power, determination and skill decide the victory.\n--Ryu",
           "Don't be so reckless, you must focus on the fight!\n--Ryu",
@@ -129,14 +128,17 @@ $(document).ready(function() {
         var fighter = ["-RYU", "-STRIDER HIRYU", "-MEGAMAN", "-MORRIGAN", "-SPIDER MAN", "-GAMBIT", "-JIN", "-ZANGIEF", "-CAPTAIN COMMANDO", "-CAPTAIN AMERICA", "-CHUN LI", "-VENOM", "-WAR MACHINE", "-HULK", "-WOLVERINE", "-ROLL", "-ONSLAUGHT"];
  var randomNum = Math.floor(Math.random()*quotes.length);
  var randomQuote = quotes[randomNum];
- $(".quote").text(randomQuote); 
- var tweetTxt = 'https://twitter.com/intent/tweet?text=' + randomQuote;   
+ $(".quote").html(randomQuote);  
  
   }  
-  $("#Tw").on("click", function() {
-    open.window('https://twitter.com/intent/tweet?text=' +randomQuote);
-  });
+$(document).ready(function() {  
   $("#KO").on("click", function() {
           getQuote();
-        });
+        });  
+$('iframe.twitter-share-button,a.twitter-share-button').remove();
+var twtr = '<a class="twitter-share-button"></a>';
+$('#twitter-button').append(twtr);
+$('.twitter-share-button').attr('href', 'https://twitter.com/share')
+  .attr('data-text', randomQuote);
+twttr.widgets.load();
 });
