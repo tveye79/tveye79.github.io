@@ -1,0 +1,64 @@
+
+html,
+body {
+  background: rgba(17, 121, 4, 139);
+  color: black;
+  font-family: garamond;
+  font-size: 90%;
+  font-weight: 400;
+  margin: 2% 7% 2% 7%;
+  text-align: center;
+}
+
+a,
+a:hover,
+a:active {
+  color: red;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.div {
+  margin: 5%;
+}
+
+.headerText {
+  font-family: garamond;
+  font-size: 280%;
+  font-weight: 700;
+}
+
+.viewer {
+  background: rgba(510, 30, 50, 10.5);
+}
+
+img {
+  width: 8%;
+}
+
+.header {
+  width: 30%;
+  margin: 0% 0% 0% 0%;
+}
+
+.channel_online,
+.channel_offline,
+.channel_disabled {
+  margin: 0% 0% 0% 0%;
+  padding: 1% 1% 1% 1%;
+}
+
+.channel_online {
+  background: black;
+  background: rgba(0, 5, 7, 1.0);
+}
+
+.channel_disabled {
+  background: black;
+  color: white;
+}
+
+.channel_offline {
+  background: lightgray;
+  background: rgba(111, 115, 111, 115);
+}
